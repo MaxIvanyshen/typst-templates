@@ -41,7 +41,7 @@
   #grid(
     columns: (1fr, 1fr),
     align(left)[
-      Прийняв:
+      Прийняв(ла):
     ],
     align(right)[
       #professor
