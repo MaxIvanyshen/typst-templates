@@ -19,9 +19,9 @@
   #v(6cm)
 
   #align(center)[
-    *#topic* \
+    Лабораторна робота №#lab_n \
     З дисципліни «#subject» \
-    Лабораторна робота №#lab_n
+    *#topic* \
   ]
 
   #v(5cm)
