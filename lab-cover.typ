@@ -4,7 +4,6 @@
   subject: "Назва дисципліни", 
   student: "ініціали студента", 
   professor: "ініціали викладача", 
-  year: datetime.today().year()
 ) = [
   #set page(margin: 2.5cm)
   #set text(size: 14pt, font: "Times New Roman")
@@ -51,7 +50,7 @@
   #v(5cm)
 
   #align(center)[
-    Вінниця #year
+    Вінниця #datetime.today().year()
   ]
 
   #pagebreak()
