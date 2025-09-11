@@ -1,6 +1,6 @@
-#let lab_cover(
-  lab_n: 1, 
-  topic: "Тема лабораторної роботи", 
+#let practice_cover(
+  practice_n: 1, 
+  topic: "Тема практичної роботи", 
   subject: "Назва дисципліни", 
   student: "ініціали студента", 
   professor: "ініціали викладача", 
@@ -19,7 +19,7 @@
   #v(6cm)
 
   #align(center)[
-    Лабораторна робота №#lab_n \
+    Практична робота №#practice_n \
     З дисципліни «#subject» \
     *#topic* \
   ]
@@ -57,10 +57,11 @@
 ]
 
 
-#lab_cover(
-  lab_n: 1, 
+#practice_cover(
+  practice_n: 1, 
   topic: "Тема лабораторної роботи", 
   subject: "Назва дисципліни", 
   student: "ініціали студента", 
   professor: "ініціали викладача", 
 )
+
